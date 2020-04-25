@@ -14,10 +14,10 @@ jalan (' Pada Dasarnya Semua Tools ini Kemungkinan Berhasil 45-70% Sisanya Terga
 time.sleep(5)
 os.system('clear')
 os.system('figlet sumandingtools |lolcat')
-print "=" * 46
-print "[+]        Author : Subhan Fadilah         [+]"
-print "[+] Whatsapp : http://wa.me/+6285225218341 [+]"
-print "=" * 46
+print "=" * 39
+print "[+]     Author : Subhan Fadilah      [+]"
+print "[+] Wa : http://wa.me/+6285225218341 [+]"
+print "=" * 39
 time.sleep(5)
 print
 print "[*] Pilihan Tools [*]"
@@ -365,10 +365,10 @@ else:
 	time.sleep(5)
 	print
 os.system('clear')
-pesan = raw_input('[?] Apakah Anda ingin mengulang (y/t) ==> ')
+pesan = raw_input('[?] Apakah ingin mengulang (y/t) ==> ')
 if pesan == 'y':
 	time.sleep(3)
-	os.system('python sumandingtools.py')
+	os.system('python2 sumandingtools.py')
 elif pesan == 't':
 	time.sleep(3)
 	os.system('clear')
